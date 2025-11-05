@@ -32,8 +32,8 @@ Content-Type: application/json
 {
   "success": true,
   "data": {
-    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...",
-    "refreshToken": "refresh_token_here",
+    "token": "your_jwt_token_here",
+    "refreshToken": "your_refresh_token_here",
     "user": {
       "id": "uuid",
       "email": "user@example.com",
@@ -49,7 +49,7 @@ Content-Type: application/json
 Inclure le token dans l'en-tête `Authorization` de chaque requête:
 
 ```http
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...
+Authorization: Bearer your_jwt_token_here
 ```
 
 ## Format de Réponse

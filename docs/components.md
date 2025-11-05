@@ -485,7 +485,7 @@ interface FilterState {
 
 ### 3.2 Services Externes
 
-#### Service de Stockage (AWS S3 / CloudFlare)
+#### Service de Stockage (AWS S3 / Cloudflare)
 **Responsabilité**: Stockage des images et fichiers
 **Fonctionnalités**:
 - Upload d'images

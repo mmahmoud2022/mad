@@ -115,7 +115,7 @@ mad/
 
 ```bash
 # Cloner le repository
-git clone https://github.com/mmahmoud2022/mad.git
+git clone https://github.com/username/mad.git
 cd mad
 
 # Installer les dépendances backend
